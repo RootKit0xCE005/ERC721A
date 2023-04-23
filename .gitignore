@@ -1,0 +1,9 @@
+.env
+.git
+artifacts
+cache
+node_modules
+session.vim
+coverage
+coverage.json
+gaz-price.txt
