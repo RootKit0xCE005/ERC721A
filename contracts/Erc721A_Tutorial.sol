@@ -24,7 +24,7 @@ contract Erc721A_Tutorial is ERC721A, Ownable {
     setBaseURI(_initBaseURI);
   }
 
-  function mint(uint16 _mintAmount) public payable {
+  function mint(uint256 _mintAmount) public payable {
     if(paused) revert CONTRACT_PAUSED();
     if(totalSupply() + _mintAmount > maxSupply) revert MAX_NFT_LIMIT_EXCEEDED();
 
