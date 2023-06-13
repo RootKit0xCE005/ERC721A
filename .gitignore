@@ -3,7 +3,7 @@
 artifacts
 cache
 node_modules
-session.vim
+Session.vim
 coverage
 coverage.json
 gaz-price.txt
